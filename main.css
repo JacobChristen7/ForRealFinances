@@ -7,20 +7,26 @@ body {
 #nav {
     height: 50px;
     background-color: rgb(255, 208, 0);
+    padding: 10px; 
+}
+#navList {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
 #navList a {
-    color: #f3f3f3;
-    float: right;
-    margin-right: 20px;
+    color: #eeeeee;
+    margin-right: 6px;
     font-size: 20px;
-    margin-top: 13px;
     text-decoration: none;
+    margin-top: -49px;
 }
 #company {
-    float: left;
+    
     font-size: 20px;
-    padding-left: 30px;
-    color: #f3f3f3;
+    padding-left: 10px;
+    color: #eeeeee;
 }
 #style {
     margin-top: -180px;
